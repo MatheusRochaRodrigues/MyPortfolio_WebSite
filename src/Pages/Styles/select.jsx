@@ -1,4 +1,7 @@
-div .Select{
+import styled from 'styled-components'
+
+export const Select_ = styled.div`
+
     height: 10%;
     width: 50%;
     align-items: left;
@@ -11,4 +14,5 @@ div .Select{
     border-radius: 5px;
     /* flex-direction: row; */
     margin-bottom: 30px;
-}
+
+`

@@ -1,4 +1,7 @@
-.footer{
+import styled from 'styled-components'
+
+export const Footer_ = styled.div`
+
     width: 100%;
     height: 20%;
     /* background-color: red; */
@@ -10,4 +13,5 @@
     font-size: 1.3em;
     display: flex;
     flex-direction: column-reverse;
-}
+
+`

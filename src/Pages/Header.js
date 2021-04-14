@@ -1,15 +1,16 @@
 import React from "react";
 import logo from './img/Zelda.jpg'
-import './Styles/header.css'
+// import './Styles/header.css'
+import { Header_ } from './Styles/header'
 
-export default function Mainly() {
+export default function Header() {
     return (
 
-        <div id='header'>
+        <Header_>
             <h1>A PÁGINA NÃO OFICIAL DO <a href='dsda.com'>LINK</a></h1> <br></br>
             {/* <h1>A PÁGINA NÃO OFICIAL DO BATMAN</h1> */}
             <img src={logo} alt="ds" />
             <h2>SÓ PROS TOP</h2>
-        </div>
+        </Header_>
     )
 }

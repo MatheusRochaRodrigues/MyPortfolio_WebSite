@@ -1,4 +1,7 @@
-.card{
+import styled from 'styled-components'
+
+export const Card_ = styled.div`
+
     margin-top: 13px;
     /* background-color: rgba(83, 83, 83, 0.63); */
     background-color: rgba(61, 61, 61, 0.63);
@@ -25,37 +28,40 @@
     opacity: 0.5;
 
     transition: 0.36s;
-}
 
-.card:hover{
-    background-color: rgba(172, 41, 41, 0.404);
-    /* color: honeydew; */
-    color: rgba(234, 250, 234, 0.479);
+    &:hover{
+        background-color: rgba(172, 41, 41, 0.404);
+        /* color: honeydew; */
+        color: rgba(234, 250, 234, 0.479);
 
-    opacity: 1;
-    
-}
+        opacity: 1;
+    }
 
-.card:active{
-    background-color: rgba(0, 100, 0, 0.37);
-    /* background-color: gray; */
-    transition: 0.4s;
-}
+    &:active{
+        background-color: rgba(0, 100, 0, 0.37);
+        /* background-color: gray; */
+        transition: 0.4s;
+    }
 
-.comp1{
+
+`
+
+
+export const Componente1_ = styled.div`
     height: 76%;
     /* background-color: lightblue; */
     justify-content: center;
 
     /* ------pode ser bom -- vamos ver ainda ------ */
     display: flex;
-    
-}
 
-.comp2{
+
+`
+
+export const Componente2_ = styled.div`
     /* flex-direction:; */
     
     /* background-color: lightcoral; */
     flex-grow: 1;
-}
 
+`

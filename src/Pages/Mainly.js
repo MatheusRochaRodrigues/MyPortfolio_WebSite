@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/mainly.css'
+import { Content_ } from './Styles/mainly'
 import Card from './Components/Card'
 
 import img1 from './Components/img/link1.jpg'
@@ -8,17 +8,7 @@ import img3 from './Components/img/dbj3t7n-0c7002d9-755d-4f8c-90a4-28930c75e371.
 
 function Mainly() {
     return (
-        <main id='content'>
-
-            {/* <article className="item"></article>
-        <article className="item"></article>
-        <article className="item"></article>
-        <article className="item"></article>
-        
-        <article className="item"></article>
-        <article className="item"></article>
-        <article className="item"></article>
-        <article className="item"></article> */}
+        <Content_>
 
             <Card titulo="Primeira caixa ola baby two"><img src={img3}></img></Card>
             <Card titulo="Segunda caixa"><img src={img2}></img></Card>
@@ -30,7 +20,7 @@ function Mainly() {
             <Card titulo="Sabado caixa"><img src={img3}></img></Card>
             <Card titulo="Domingo caixa"><img src={img3}></img></Card>
 
-        </main>
+        </Content_>
     );
 }
 

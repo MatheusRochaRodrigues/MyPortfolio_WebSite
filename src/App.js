@@ -6,11 +6,13 @@ import Select from './Pages/Select'
 import Mainly from './Pages/Mainly'
 import Footer from './Pages/Footer'
 import Theme from './Themes/Theme'
+import { Container } from './Styles/container'
 
 function App() {
     return (
         // <div theme={Theme}>
-        <div id='container'>
+        // <div id='container'>
+        <Container>
 
             <Header />
 
@@ -21,7 +23,9 @@ function App() {
             <Footer />
 
 
-        </div>
+        </Container>
+
+        // </div>
         // </div>
     );
 }

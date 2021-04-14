@@ -1,12 +1,12 @@
 import React from 'react'
-import './Styles/select.css'
+import { Select_ } from './Styles/select'
 
-export default function Select(){
+export default function Select() {
 
-    return(
+    return (
         <React.Fragment>
-            <div className='Select'></div>
+            <Select_></Select_>
         </React.Fragment>
-        )
-        
+    )
+
 }
