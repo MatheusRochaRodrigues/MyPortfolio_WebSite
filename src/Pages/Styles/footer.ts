@@ -13,5 +13,7 @@ export const Footer_ = styled.div`
     font-size: 1.3em;
     display: flex;
     flex-direction: column-reverse;
+    /* line-height: 80px; */
+    color: ${props => props.theme.colors.secundary};
 
 `

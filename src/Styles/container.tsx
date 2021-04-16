@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+// import styled, { createGlobalStyle } from 'styled-components'
+
 export const Container = styled.div`
     width: 1301px;
     height: 1700px;
