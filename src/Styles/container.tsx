@@ -7,7 +7,8 @@ export const Container = styled.div`
     height: 1700px;
     /* display: flex; */
     /* background-color: rgb(56, 73, 73); */
-    background-color: rgb(26, 25, 25);
+    background-color: ${props => props.theme.colors.primary};
+    /* background-color: rgb(26, 25, 25); */
 
     /* margin:0 auto;			 */     /* 1primeiro metodo Funcional  */ 
 
@@ -38,7 +39,8 @@ export const Container = styled.div`
         text-shadow: 1px 1px black;
         /* flex-grow: 1; */
         font-size: 1.9em;
-        color: rgb(170, 15, 15);
+        /* color: rgb(170, 15, 15); */
+        color: ${props => props.theme.colors.text};
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         /* overflow: hidden; */
         /* cores padroes de branco para o titulo branco */
@@ -47,7 +49,9 @@ export const Container = styled.div`
 
     h2{
             /* color: rgb(202, 202, 7); */
-            color: rgb(1, 139, 1);
+            /* color: rgb(2, 121, 2); */
+            color: ${props => props.theme.colors.sub_text};
+            /* color: #c0c0c0; */
             margin-bottom: 60px;
 
             /* &:hover{
@@ -56,9 +60,9 @@ export const Container = styled.div`
 
         }
 
-    img{
+    /* img{
         border: 2.2px solid black;
-        /* ola 1 */
-    }
+        
+    } */
 
 `

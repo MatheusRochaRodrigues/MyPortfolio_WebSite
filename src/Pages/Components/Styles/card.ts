@@ -24,23 +24,24 @@ export const Card_ = styled.div`
 
     /* border: 1px solid brown; */
 
-    color: rgba(150, 34, 34, 0.425);
+    color: ${props => (props.theme.colors.bTextBef)};
     opacity: 0.5;
 
     transition: 0.36s;
 
     &:hover{
-        background-color: rgba(172, 41, 41, 0.404);
+        background-color: ${props => (props.theme.colors.card)};
         /* color: honeydew; */
-        color: rgba(234, 250, 234, 0.479);
-
+        color: ${props => (props.theme.colors.bTextAft)};
+        /* border: 1px solid black; */
         opacity: 1;
     }
 
     &:active{
-        background-color: rgba(0, 100, 0, 0.37);
+        background-color: ${props => (props.theme.colors.border)};
+        /* background-color: rgba(240, 255, 240, 0.452);  rgba(0, 0, 0, 0.5); */
         /* background-color: gray; */
-        transition: 0.4s;
+        transition: 0.0s;
     }
 
 

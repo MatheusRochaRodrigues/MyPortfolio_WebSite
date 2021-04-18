@@ -25,11 +25,14 @@ const Select: React.FC<props> = ({ toggleTheme }) => {
                     checkedIcon={false}
                     uncheckedIcon={false}
                     // height={10}
-                    width={47}
-                    height={16}
-                    handleDiameter={20}
+                    width={50}
+                    height={19}
+                    handleDiameter={23}
                     offColor='#152'
                     onColor='#888'
+
+                    boxShadow='0 0 2px 3px #134d5f'
+                    activeBoxShadow='0 0 2px 3px #2a135f'
                 />
 
             </Select_>

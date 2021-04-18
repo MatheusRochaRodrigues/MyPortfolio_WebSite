@@ -10,7 +10,8 @@ export default function Header() {
             <h1>A PÁGINA NÃO OFICIAL DO <a href='EmProducao'>LINK</a></h1> <br></br>
             {/* <h1>A PÁGINA NÃO OFICIAL DO BATMAN</h1> */}
             <img src={logo} alt="ds" />
-            <h2>SÓ PROS TOP</h2>
+            {/* <h2>SÓ PROS TOP</h2> */}
+            {/* <h2>ValE aPeNA</h2> */}
         </Header_>
     )
 }

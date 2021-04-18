@@ -11,7 +11,7 @@ export const Select_ = styled.div`
     /* flex: 1; */
     flex-direction: column;
 
-    
+    /* background-color: rgba(105, 105, 105, 0.575); */
     
     padding-bottom:3px;
 

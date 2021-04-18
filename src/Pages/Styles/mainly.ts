@@ -19,7 +19,7 @@ export const Content_ = styled.main`
 
     /* ----------------------!!!IMPORTANTE---------------------- */
     img{
-        /* border: none; */
+        border: none;
     
     }
 

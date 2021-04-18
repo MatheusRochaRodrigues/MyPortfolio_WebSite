@@ -14,11 +14,15 @@ export const Header_ = styled.div`
         color: rgb(182, 18, 18);
 
         &:hover{
-            color: rgb(200, 23, 11);
+            color: ${props => (props.theme.colors.link)};
         }
 
     } 
 
     a { color: inherit; } 
+
+    img{
+        border: 2.45px solid black;
+    }
 
 `
