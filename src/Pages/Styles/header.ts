@@ -15,6 +15,7 @@ export const Header_ = styled.div`
 
         &:hover{
             color: ${props => (props.theme.colors.link)};
+            transition: 0.3s;
         }
 
     } 
@@ -24,5 +25,15 @@ export const Header_ = styled.div`
     img{
         border: 2.45px solid black;
     }
+
+    @media (max-width: 720px){
+
+        img{
+            width: 550px;
+    }
+        
+
+    }
+
 
 `

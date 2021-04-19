@@ -14,6 +14,7 @@ declare module 'styled-components' {
             bTextBef: string;
             bTextAft: string;
             border: string;
+            foot: string;
         }
     }
 }

@@ -4,7 +4,7 @@ export const Content_ = styled.main`
 
     /* background-color: rgb(46, 44, 44); */
     width: 100%;
-    height: 38%;
+    /* height: 38%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

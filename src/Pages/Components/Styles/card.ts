@@ -7,7 +7,9 @@ export const Card_ = styled.div`
     background-color: rgba(61, 61, 61, 0.63);
     flex-basis: 303px;
     height: 294px;
+    width: 20%;
     border-radius: 3px;
+    /* border: 2px solid black; */
     /* justify-content: center; */
     display: flex;
     /* align-items: center; */
@@ -42,6 +44,21 @@ export const Card_ = styled.div`
         /* background-color: rgba(240, 255, 240, 0.452);  rgba(0, 0, 0, 0.5); */
         /* background-color: gray; */
         transition: 0.0s;
+    }
+
+    @media (max-width: 1360px){
+
+        height: 290px;
+        flex-basis: 298px;
+        /* width: 10%; */
+
+    }
+
+    @media (min-width: 1024px) and (max-width: 1280px){
+
+        height: 281px;
+        flex-basis: 280.9px;
+
     }
 
 

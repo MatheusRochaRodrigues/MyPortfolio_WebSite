@@ -14,10 +14,10 @@ export const Footer_ = styled.div`
     display: flex;
     flex-direction: column-reverse;
     /* line-height: 80px; */
-    color: ${props => props.theme.colors.text};
+    color: #c0c0c0;
 
     span{
-        color: rgba(11, 33, 155, 0.9);
+        color: ${props => (props.theme.colors.foot)};
         text-shadow: 0px 0px darkblue;
         font-size: 1.1em;
     }

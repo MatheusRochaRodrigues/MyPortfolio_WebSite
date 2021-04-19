@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider, DefaultTheme } from 'styled-components';
-import './Styles/App.css';
+import GlobalStyle from './Styles/GlobalStyleApp'
 
 import Header from './Pages/Header'
 import Select from './Pages/Select'
@@ -25,6 +25,7 @@ function App() {
     return (
 
         <ThemeProvider theme={Theme}>
+            <GlobalStyle />
             <Container>
 
                 <Header />

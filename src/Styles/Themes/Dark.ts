@@ -10,7 +10,8 @@ export default {
         link: 'rgb(200, 23, 11, 0.8)',
         bTextBef: 'rgba(150, 34, 34, 0.5)',
         bTextAft: 'rgba(234, 250, 234, 0.479)',
-        border: 'rgba(0, 0, 0, 0.05)'
+        border: 'rgba(0, 0, 0, 0.05)',
+        foot: '#770b0b'
     },
 
 };

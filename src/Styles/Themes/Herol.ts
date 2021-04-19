@@ -10,7 +10,8 @@ export default {
         link: 'rgba(16, 35, 163, 0.763)',
         bTextBef: 'gray',
         bTextAft: 'honeydew',
-        border: 'rgba(240, 255, 240, 0.452)'
+        border: 'rgba(240, 255, 240, 0.452)',
+        foot: 'rgba(11, 33, 155, 0.9)'
     },
 
     // font: {
