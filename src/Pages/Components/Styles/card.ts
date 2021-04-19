@@ -48,18 +48,34 @@ export const Card_ = styled.div`
 
     @media (max-width: 1360px){
 
-        height: 290px;
+        height: 288px;
         flex-basis: 298px;
         /* width: 10%; */
 
     }
 
-    @media (min-width: 1024px) and (max-width: 1280px){
+    @media (max-width: 1170px){
+
+        height: 234px;
+        flex-basis: 230px;
+        /* width: 10%; */
+
+    }
+
+    @media (max-width: 1007px){
+
+        height: 210px;
+        flex-basis: 200px;
+        /* width: 10%; */
+
+}
+
+    /* @media (min-width: 1024px) and (max-width: 1280px){
 
         height: 281px;
         flex-basis: 280.9px;
 
-    }
+    } */
 
 
 `

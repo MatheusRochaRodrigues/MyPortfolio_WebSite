@@ -3,14 +3,17 @@ import styled from 'styled-components'
 // import styled, { createGlobalStyle } from 'styled-components'
 
 export const Container = styled.div`
+    /* width: 94.5%; */
     width: 1301px;
+    /* max-width: 90vh; */
+    /* min-width: 95%; */
     height: 1700px;
     /* display: flex; */
     /* background-color: rgb(56, 73, 73); */
     background-color: ${props => props.theme.colors.primary};
     /* background-color: rgb(26, 25, 25); */
 
-    /* margin:0 auto;			 */     /* 1primeiro metodo Funcional  */ 
+    margin:0 auto;			     /* 1primeiro metodo Funcional  */ 
 
     padding: 15px;
     /* padding: 15px; */
@@ -66,15 +69,15 @@ export const Container = styled.div`
     } */
 
 
-    @media (max-width: 1360px){
+    @media (max-width: 900px){
 
-        width: 1258px;
+        width: 88%;
 
     }
 
-    @media (min-width: 1024px) and (max-width: 1280px){
+    @media (min-width: 720px) and (max-width: 1280px){
 
-        width: 1190px;
+        width: 94%;
 
     }
 

@@ -29,7 +29,7 @@ export const Header_ = styled.div`
     @media (max-width: 720px){
 
         img{
-            width: 550px;
+            width: 421px;
     }
         
 

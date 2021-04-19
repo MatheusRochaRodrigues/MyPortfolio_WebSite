@@ -23,7 +23,7 @@ body {
   /* color:rgb(161, 161, 161); */
   font-size: 1.0em;
   margin-bottom: 25px;
-  display: flex;     /* 2 metodo tb funcional */
+  /*display: flex;      2 metodo tb funcional */
   justify-content: center;
   /* flex-direction: column; */
 
