@@ -30,10 +30,14 @@ export const Header_ = styled.div`
 
         img{
             width: 421px;
-    }
-        
+    }   
 
     }
+
+    @media (max-width: 900px){
+
+        height: 13%;
+    }  
 
 
 `

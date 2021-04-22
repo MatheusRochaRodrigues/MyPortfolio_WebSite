@@ -66,6 +66,7 @@ export const Card_ = styled.div`
 
         height: 210px;
         flex-basis: 200px;
+        
         /* width: 10%; */
 
 }

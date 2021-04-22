@@ -24,4 +24,9 @@ export const Select_ = styled.div`
     /* flex-direction: row; */
     margin-bottom: 30px;
 
+    @media (max-width: 900px){
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
 `

@@ -22,4 +22,11 @@ export const Footer_ = styled.div`
         font-size: 1.1em;
     }
 
+    @media (max-width: 900px){
+
+        width: 88%;
+        height: 10%;
+
+    }
+
 `

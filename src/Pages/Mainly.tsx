@@ -19,7 +19,7 @@ function Mainly() {
     return (
         <Content_>
 
-            <Card titulo="Primeira caixa ola baby two"><img src={img3}></img></Card>
+            <Card titulo="Primeira caixa"><img src={img3}></img></Card>
             <Card titulo="Segunda caixa"><img src={img7}></img></Card>
             <Card titulo="Terceira caixa"><img src={img11}></img></Card>
             <Card titulo="Quarta caixa"><img src={img5}></img></Card>
